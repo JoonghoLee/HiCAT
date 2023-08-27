@@ -1,11 +1,16 @@
 # HiCAT
 High precision, marker-based, hierarchical cell-type annotation tool for single-cell RNA-seq data
+![20230827_162302](https://github.com/JoonghoLee/HiCAT/assets/35910715/e7f4c974-6522-4520-ad16-6a59b9594b4b)
+
 
 ## Brief introduction
 - HiCAT is a marker-based, hierarchical cell-type annotation tool for single-cell RNA-seq data.
 - It was developed using python3, but also run in R as well.
 - HiCAT works in marker-based mode utilizing only the existing lists of markers.
 - Please refer to "Hierarchical cell-type identifier accurately distinguishes immune-cell subtypes enabling precise profiling of tissue microenvironment with single-cell RNA-sequencing", Briefings in Bioinformatics, available at https://doi.org/10.1093/bib/bbad006,  https://doi.org/10.1101/2022.07.27.501701
+
+![main_fig](https://github.com/JoonghoLee/HiCAT/assets/35910715/1a653e19-595e-4581-b8b6-1252762b3081)
+
 
 ## Installation using pip, importing HiCAT in Python
 
@@ -59,5 +64,4 @@ The arguments to pass and the return value are the same as those in python.
 R example of HiCAT is in R script `HiCAT_example.R`
 Tested in linux Mint with R version 4.0.5. (numpy v1.21.1, scipy v1.7.1 without scikit-network)
 
-## Contact
-Send email to syoon@dku.edu for any inquiry on the usages.
+
